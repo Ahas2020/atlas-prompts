@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /checkout/
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemaps
+Sitemap: https://atlasprompts.com/sitemap.xml
+
+# Crawl-delay for bots
+Crawl-delay: 10
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /dashboard/
+Disallow: /checkout/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /dashboard/
+Disallow: /checkout/
