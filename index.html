@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أطلس برومبتس — أول وأكبر سوق عربي لبيع وشراء أوامر الذكاء الاصطناعي. نطوّر أوامرك ولا نرفضها. ChatGPT، Midjourney، Claude، Sora وأكثر.">
+  <meta name="keywords" content="أوامر ذكاء اصطناعي, برومبت عربي, بيع أوامر AI, سوق برومبت, ChatGPT عربي, Midjourney عربي, prompt marketplace عربي, اوامر ذكاء اصطناعي بالعربية, أطلس برومبتس, atlas prompts">
+  <meta name="author" content="أطلس برومبتس">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Arabic">
+  <meta name="geo.region" content="MA">
+  <link rel="canonical" href="https://atlasprompts.com/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://atlasprompts.com/">
+  <meta property="og:title" content="أطلس برومبتس | أول سوق عربي لأوامر الذكاء الاصطناعي">
+  <meta property="og:description" content="اشترِ وبِع أوامر الذكاء الاصطناعي بالعربية. نطوّر أوامرك بذكاء ولا نرفضها. انضم لأكبر مجتمع عربي لهندسة البرومبت.">
+  <meta property="og:image" content="https://atlasprompts.com/og-image.jpg">
+  <meta property="og:locale" content="ar_MA">
+  <meta property="og:site_name" content="أطلس برومبتس">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@AtlasPrompts">
+  <meta name="twitter:title" content="أطلس برومبتس | سوق الأوامر العربية">
+  <meta name="twitter:description" content="أول وأكبر سوق عربي لأوامر الذكاء الاصطناعي. اشترِ أوامر احترافية أو بِع إبداعك وابدأ ربحك.">
+  <meta name="twitter:image" content="https://atlasprompts.com/og-image.jpg">
+
+  <title>أطلس برومبتس | أول سوق عربي لأوامر الذكاء الاصطناعي</title>
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "أطلس برومبتس",
+    "alternateName": "Atlas Prompts",
+    "url": "https://atlasprompts.com",
+    "logo": "https://atlasprompts.com/logo.svg",
+    "description": "أول وأكبر سوق عربي متخصص في بيع وشراء أوامر الذكاء الاصطناعي",
+    "foundingDate": "2024",
+    "areaServed": "Arab World",
+    "inLanguage": "ar",
+    "sameAs": [
+      "https://twitter.com/AtlasPrompts",
+      "https://linkedin.com/company/atlas-prompts"
+    ]
+  }
+  </script>
+  <!-- Structured Data: WebSite with SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "أطلس برومبتس",
+    "url": "https://atlasprompts.com",
+    "inLanguage": "ar",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://atlasprompts.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <!-- Structured Data: Marketplace / Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "أوامر الذكاء الاصطناعي العربية",
+    "description": "مجموعة مختارة من أوامر الذكاء الاصطناعي باللغة العربية",
+    "url": "https://atlasprompts.com/#market",
+    "numberOfItems": 1847,
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "محلل الأسواق السيادي", "url": "https://atlasprompts.com/prompt/1" },
+      { "@type": "ListItem", "position": 2, "name": "مصمم الهوية البصرية", "url": "https://atlasprompts.com/prompt/2" },
+      { "@type": "ListItem", "position": 3, "name": "كاتب المحتوى الإبداعي", "url": "https://atlasprompts.com/prompt/3" }
+    ]
+  }
+  </script>
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000'/%3E%3Cpath d='M32 10 L40 26 L56 26 L44 36 L48 52 L32 43 L16 52 L20 36 L8 26 L24 26 Z' fill='%23FFD700' opacity='0.2'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='28' font-weight='bold' fill='%23FFD700'%3E%D8%B9%3C/text%3E%3C/svg%3E">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --gold: #FFD700;
+      --gold2: #FFA500;
+      --dark: #030303;
+      --dark2: #080808;
+      --dark3: #0e0e0e;
+      --card: #0b0b0b;
+      --border: rgba(255,215,0,0.12);
+      --muted: #5a5a5a;
+      --text: #F0EFE8;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: var(--dark);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #000; }
+    ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 10px; }
+
+    /* ── Background ── */
+    .geo-bg {
+      position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 60px, rgba(255,215,0,.025) 60px, rgba(255,215,0,.025) 61px),
+        repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(255,215,0,.025) 60px, rgba(255,215,0,.025) 61px);
+    }
+    .noise {
+      position: fixed; inset: 0; pointer-events: none; z-index: 0; opacity: .03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    /* ── Glass ── */
+    .glass {
+      background: rgba(12,12,12,.88);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid var(--border);
+    }
+
+    /* ── Gold gradient text ── */
+    .gold-text { color: var(--gold); }
+    .gold-grad {
+      background: linear-gradient(135deg, #FFD700 0%, #FFA040 50%, #FFD700 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* ── Buttons ── */
+    .btn-gold {
+      background: linear-gradient(135deg, #FFD700, #FFA500);
+      color: #000; font-weight: 900; font-family: 'Cairo', sans-serif;
+      border: none; cursor: pointer; transition: all .3s;
+    }
+    .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(255,215,0,.35); }
+    .btn-outline {
+      border: 1.5px solid rgba(255,215,0,.3); color: var(--gold);
+      background: transparent; font-family: 'Cairo', sans-serif;
+      cursor: pointer; transition: all .3s; font-weight: 700;
+    }
+    .btn-outline:hover { background: rgba(255,215,0,.08); border-color: var(--gold); }
+
+    /* ── Nav ── */
+    .nav-wrap { position: sticky; top: 14px; z-index: 100; padding: 0 16px; }
+
+    /* ── Mobile Menu ── */
+    #mobileMenu {
+      display: none; position: fixed; inset: 0; background: #000;
+      z-index: 500; flex-direction: column; align-items: center;
+      justify-content: center; gap: 36px;
+    }
+    #mobileMenu.open { display: flex; }
+
+    /* ── Hero ── */
+    .hero-glow {
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%,-60%);
+      width: 600px; height: 400px; border-radius: 50%;
+      background: radial-gradient(ellipse, rgba(255,215,0,.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(28px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-14px); } }
+    @keyframes spin-slow { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
+    .fade-up { animation: fadeUp .8s ease forwards; }
+    .delay-1 { animation-delay: .1s; opacity: 0; }
+    .delay-2 { animation-delay: .25s; opacity: 0; }
+    .delay-3 { animation-delay: .4s; opacity: 0; }
+    .delay-4 { animation-delay: .55s; opacity: 0; }
+    .float-it { animation: float 7s ease-in-out infinite; }
+
+    /* ── Prompt Cards ── */
+    .prompt-card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,.05);
+      border-radius: 22px; overflow: hidden;
+      transition: all .4s cubic-bezier(.4,0,.2,1);
+      cursor: pointer;
+    }
+    .prompt-card:hover {
+      border-color: rgba(255,215,0,.45);
+      transform: translateY(-8px);
+      box-shadow: 0 28px 56px rgba(0,0,0,.7), 0 0 40px rgba(255,215,0,.07);
+    }
+    .card-img { height: 180px; width: 100%; object-fit: cover; transition: transform .5s; }
+    .prompt-card:hover .card-img { transform: scale(1.04); }
+
+    /* ── Category Pills ── */
+    .cat-pill {
+      padding: 8px 20px; border-radius: 100px;
+      border: 1px solid rgba(255,255,255,.08);
+      font-size: 13px; font-weight: 700; color: var(--muted);
+      cursor: pointer; transition: all .3s; white-space: nowrap;
+      background: transparent; font-family: 'Cairo', sans-serif;
+    }
+    .cat-pill:hover, .cat-pill.active {
+      border-color: var(--gold); color: var(--gold);
+      background: rgba(255,215,0,.07);
+    }
+
+    /* ── Plans ── */
+    .plan-card {
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 28px; padding: 40px 32px;
+      transition: all .4s; background: var(--card);
+    }
+    .plan-card.featured {
+      border: 2px solid var(--gold);
+      background: rgba(255,215,0,.03);
+      transform: scale(1.04);
+    }
+    .plan-feature { display: flex; align-items: center; gap: 10px; padding: 8px 0; font-size: 14px; }
+    .check { color: var(--gold); font-size: 16px; flex-shrink: 0; }
+    .cross { color: #444; font-size: 16px; flex-shrink: 0; }
+
+    /* ── Modals ── */
+    .modal-overlay {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,.95);
+      backdrop-filter: blur(20px);
+      z-index: 1000; display: none;
+      align-items: center; justify-content: center;
+      padding: 20px; overflow-y: auto;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal-box {
+      width: 100%; max-height: 90vh;
+      overflow-y: auto; border-radius: 28px;
+    }
+    .modal-box::-webkit-scrollbar { width: 4px; }
+    .modal-box::-webkit-scrollbar-thumb { background: rgba(255,215,0,.3); }
+
+    /* ── Dashboard ── */
+    .dash-tab { display: none; }
+    .dash-tab.active { display: block; }
+    .dash-nav-btn {
+      padding: 10px 20px; border-radius: 12px;
+      font-weight: 700; font-size: 13px;
+      cursor: pointer; transition: all .3s;
+      border: none; font-family: 'Cairo', sans-serif;
+      background: transparent; color: var(--muted);
+    }
+    .dash-nav-btn.active { background: rgba(255,215,0,.12); color: var(--gold); }
+
+    /* ── Sell Steps ── */
+    .sell-step { display: none; }
+    .sell-step.active { display: block; }
+    .step-circle {
+      width: 36px; height: 36px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 900; font-size: 13px; border: 2px solid rgba(255,255,255,.1);
+      color: var(--muted); flex-shrink: 0; transition: all .3s;
+    }
+    .step-circle.done { background: rgba(255,215,0,.2); border-color: var(--gold); color: var(--gold); }
+    .step-circle.active { background: var(--gold); border-color: var(--gold); color: #000; }
+
+    /* ── Inputs ── */
+    .finput {
+      width: 100%; background: rgba(0,0,0,.5);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 14px; padding: 14px 18px;
+      color: white; font-family: 'Cairo', sans-serif;
+      font-size: 14px; outline: none; transition: border-color .3s;
+    }
+    .finput:focus { border-color: var(--gold); }
+    .finput::placeholder { color: #333; }
+    select.finput option { background: #111; }
+
+    /* ── Earnings chart ── */
+    .bar-wrap { display: flex; align-items: flex-end; gap: 8px; height: 100px; }
+    .chart-bar {
+      flex: 1; border-radius: 6px 6px 0 0;
+      background: linear-gradient(to top, #FFD700, #FFA500);
+      transition: height 1s ease; min-width: 20px;
+    }
+
+    /* ── Toast ── */
+    #toast {
+      position: fixed; bottom: 28px; left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #111; border: 1px solid var(--gold);
+      color: var(--gold); padding: 14px 32px;
+      border-radius: 100px; font-weight: 700; font-size: 14px;
+      z-index: 9999; transition: transform .4s cubic-bezier(.4,0,.2,1);
+      white-space: nowrap; font-family: 'Cairo', sans-serif;
+    }
+    #toast.show { transform: translateX(-50%) translateY(0); }
+
+    /* ── Badge ── */
+    .badge-new {
+      background: #EF4444; color: #fff; font-size: 9px;
+      font-weight: 900; padding: 3px 8px; border-radius: 100px;
+    }
+    .badge-hot {
+      background: linear-gradient(135deg, #FFA500, #FFD700);
+      color: #000; font-size: 9px; font-weight: 900;
+      padding: 3px 8px; border-radius: 100px;
+    }
+
+    /* ── Donation ── */
+    .donate-amt {
+      padding: 12px 22px; border-radius: 12px;
+      border: 1px solid rgba(255,255,255,.1);
+      background: rgba(255,255,255,.02);
+      color: white; font-weight: 700; font-size: 15px;
+      cursor: pointer; transition: all .3s;
+      font-family: 'Cairo', sans-serif;
+    }
+    .donate-amt:hover, .donate-amt.sel {
+      border-color: var(--gold); background: rgba(255,215,0,.1);
+      color: var(--gold);
+    }
+
+    /* ── How It Works steps ── */
+    .step-card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,.05);
+      border-radius: 20px; padding: 32px 24px;
+      transition: all .4s; position: relative;
+    }
+    .step-card:hover { border-color: rgba(255,215,0,.3); transform: translateY(-4px); }
+    .step-num {
+      font-size: 64px; font-weight: 900; line-height: 1;
+      background: linear-gradient(135deg, rgba(255,215,0,.15), rgba(255,215,0,.03));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; position: absolute; top: 16px; left: 20px;
+    }
+
+    /* ── AI improvement comparison ── */
+    .compare-box {
+      background: rgba(0,0,0,.4); border-radius: 16px;
+      padding: 20px; border: 1px solid rgba(255,255,255,.06);
+      font-size: 13px; line-height: 1.8; font-family: monospace;
+      color: #aaa;
+    }
+    .compare-box.improved { border-color: rgba(255,215,0,.3); color: #ddd; }
+
+    /* ── AI loading ── */
+    @keyframes dots {
+      0%,20% { content: '.'; }
+      40% { content: '..'; }
+      60%,100% { content: '...'; }
+    }
+    .ai-loading::after { content: '...'; animation: dots 1.2s infinite; }
+
+    /* ── Responsive ── */
+    @media(max-width:768px) {
+      .hide-mob { display: none !important; }
+      .plan-card.featured { transform: scale(1); }
+      /* Manifesto article: stack on mobile */
+      #manifesto > div:last-of-type {
+        grid-template-columns: 1fr !important;
+      }
+      #manifesto > div:last-of-type > div:first-child {
+        position: static !important;
+      }
+      /* Sell modal steps: shrink labels */
+      .step-circle { width:30px; height:30px; font-size:11px; }
+      #si1 > div:last-child,
+      #si2 > div:last-child,
+      #si3 > div:last-child { font-size: 11px; }
+      /* Cards grid: 2 col on tablet */
+      #cardsGrid { grid-template-columns: repeat(auto-fill, minmax(200px,1fr)) !important; }
+      /* Plans: single col */
+      #plans > div:nth-child(2) { grid-template-columns: 1fr !important; }
+      /* Donation absolute badge: static on mobile */
+      #donate .donate-bottom { position:static !important; margin-top:28px; }
+    }
+    @media(max-width:500px) {
+      #cardsGrid { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</head>
+
+<body>
+<div class="geo-bg"></div>
+<div class="noise"></div>
+<div id="toast">✅ تم بنجاح!</div>
+
+<!-- ═══════════════════ MOBILE MENU ═══════════════════ -->
+<div id="mobileMenu">
+  <button onclick="closeMobileMenu()" style="position:absolute;top:24px;left:24px;background:none;border:none;color:#fff;font-size:26px;cursor:pointer;">✕</button>
+  <div style="margin-bottom:16px;">
+    <svg width="50" height="50" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#111"/><text x="32" y="44" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#FFD700">ع</text></svg>
+  </div>
+  <a href="#market" onclick="closeMobileMenu()" style="font-size:22px;font-weight:800;color:#fff;">المستودع</a>
+  <a href="#how" onclick="closeMobileMenu()" style="font-size:22px;font-weight:800;color:#fff;">كيف يعمل؟</a>
+  <a href="#plans" onclick="closeMobileMenu()" style="font-size:22px;font-weight:800;color:#fff;">اشتراكات البائعين</a>
+  <a href="#manifesto" onclick="closeMobileMenu()" style="font-size:22px;font-weight:800;color:#fff;">بياننا</a>
+  <a href="#donate" onclick="closeMobileMenu()" style="font-size:22px;font-weight:800;color:#fff;">ادعم المنصة</a>
+  <a href="login.html"><button class="btn-gold" style="padding:16px 40px;border-radius:100px;font-size:16px;">بع أوامرك الآن</button></a>
+</div>
+
+<!-- ═══════════════════ NAV ═══════════════════ -->
+<div class="nav-wrap">
+  <nav class="glass max-w-7xl mx-auto flex justify-between items-center px-6 py-4 rounded-[28px]" style="margin-top:0;">
+    <!-- Logo -->
+    <div style="display:flex;align-items:center;gap:12px;flex-shrink:0;">
+      <svg width="40" height="40" viewBox="0 0 64 64" style="flex-shrink:0;">
+        <rect width="64" height="64" rx="14" fill="#111"/>
+        <path d="M32 12 L40 26 L54 28 L43 39 L46 54 L32 46 L18 54 L21 39 L10 28 L24 26 Z" fill="#FFD700" opacity="0.18"/>
+        <text x="32" y="44" text-anchor="middle" font-family="Georgia,serif" font-size="26" fill="#FFD700" font-weight="bold">ع</text>
+      </svg>
+      <div>
+        <div style="font-weight:900;font-size:16px;color:#FFD700;letter-spacing:-.5px;line-height:1.1;">ATLAS PROMPTS</div>
+        <div style="font-size:9px;color:#555;font-weight:700;letter-spacing:.15em;text-transform:uppercase;">أطلس برومبتس</div>
+      </div>
+    </div>
+    <!-- Desktop Links -->
+    <div class="hide-mob" style="display:flex;align-items:center;gap:28px;">
+      <a href="#market" style="font-size:13px;font-weight:700;color:#999;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#999'">المستودع</a>
+      <a href="#how" style="font-size:13px;font-weight:700;color:#999;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#999'">كيف يعمل؟</a>
+      <a href="#plans" style="font-size:13px;font-weight:700;color:#999;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#999'">اشتراكات البائعين</a>
+      <a href="#manifesto" style="font-size:13px;font-weight:700;color:#999;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#999'">بياننا</a>
+      <a href="#donate" style="font-size:13px;font-weight:700;color:#999;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#999'">ادعم المنصة</a>
+      <a href="login.html"><button class="btn-outline" style="padding:10px 20px;border-radius:12px;font-size:13px;">لوحة التحكم</button></a>
+      <a href="login.html"><button class="btn-gold" style="padding:10px 24px;border-radius:14px;font-size:13px;">بع أوامرك الآن ✦</button></a>
+    </div>
+    <!-- Mobile hamburger -->
+    <button onclick="openMobileMenu()" style="display:none;background:none;border:none;color:#FFD700;font-size:24px;cursor:pointer;" class="show-mob" id="hamburger">☰</button>
+  </nav>
+</div>
+
+<style>
+  @media(max-width:768px){
+    #hamburger{display:block!important;}
+  }
+</style>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<header style="max-width:1280px;margin:0 auto;padding:80px 20px 100px;text-align:center;position:relative;overflow:hidden;">
+  <div class="hero-glow"></div>
+
+  <div class="fade-up delay-1" style="display:inline-block;background:rgba(255,215,0,.08);border:1px solid rgba(255,215,0,.2);border-radius:100px;padding:8px 24px;font-size:13px;font-weight:700;color:#FFD700;margin-bottom:28px;">
+    🌍 أول وأكبر سوق عربي لأوامر الذكاء الاصطناعي
+  </div>
+
+  <h1 class="fade-up delay-2" style="font-size:clamp(2.6rem,7vw,5.5rem);font-weight:900;line-height:1.1;margin-bottom:24px;">
+    سوق الأوامر العربية<br>
+    <span class="gold-grad">السيادي</span>
+  </h1>
+
+  <p class="fade-up delay-3" style="font-size:clamp(15px,2.5vw,20px);color:#666;max-width:680px;margin:0 auto 40px;line-height:1.8;font-weight:400;">
+    نحن لا نرفض أعمالك — نُطوّرها بذكائنا الاصطناعي ونُخرج أفضل نسخة منها. ارفع أمرك الآن وابدأ ربحك.
+  </p>
+
+  <div class="fade-up delay-4" style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:48px;">
+    <a href="login.html"><button class="btn-gold" style="padding:16px 36px;border-radius:16px;font-size:16px;">
+      🚀 ابدأ البيع مجاناً
+    </button></a>
+    </button>
+    <a href="#market">
+      <button class="btn-outline" style="padding:16px 36px;border-radius:16px;font-size:16px;">
+        🛒 تصفح الأوامر
+      </button>
+    </a>
+  </div>
+
+  <!-- AI Tool Tags -->
+  <div class="fade-up delay-4" style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+    <span style="border:1px solid rgba(255,215,0,.2);color:#FFD700;font-size:11px;font-weight:800;padding:5px 14px;border-radius:100px;letter-spacing:.08em;">ChatGPT 4o</span>
+    <span style="border:1px solid rgba(255,215,0,.2);color:#FFD700;font-size:11px;font-weight:800;padding:5px 14px;border-radius:100px;letter-spacing:.08em;">Midjourney V7</span>
+    <span style="border:1px solid rgba(255,215,0,.2);color:#FFD700;font-size:11px;font-weight:800;padding:5px 14px;border-radius:100px;letter-spacing:.08em;">Claude Sonnet</span>
+    <span style="border:1px solid rgba(255,215,0,.2);color:#FFD700;font-size:11px;font-weight:800;padding:5px 14px;border-radius:100px;letter-spacing:.08em;">Gemini Ultra</span>
+    <span style="border:1px solid rgba(255,215,0,.2);color:#FFD700;font-size:11px;font-weight:800;padding:5px 14px;border-radius:100px;letter-spacing:.08em;">Sora Video</span>
+    <span style="border:1px solid rgba(255,215,0,.2);color:#FFD700;font-size:11px;font-weight:800;padding:5px 14px;border-radius:100px;letter-spacing:.08em;">DALL-E 3</span>
+  </div>
+</header>
+
+<!-- ═══════════════════ STATS BAR ═══════════════════ -->
+<section style="max-width:1280px;margin:0 auto 100px;padding:0 20px;">
+  <div class="glass" style="border-radius:24px;padding:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:32px;">
+    <div style="text-align:center;">
+      <div style="font-size:clamp(2rem,4vw,3rem);font-weight:900;background:linear-gradient(135deg,#FFD700,#FFA500);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;" id="stat1">0</div>
+      <div style="font-size:13px;color:#666;margin-top:6px;font-weight:600;">أمر منشور</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:clamp(2rem,4vw,3rem);font-weight:900;background:linear-gradient(135deg,#FFD700,#FFA500);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;" id="stat2">0</div>
+      <div style="font-size:13px;color:#666;margin-top:6px;font-weight:600;">بائع نشط</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:clamp(2rem,4vw,3rem);font-weight:900;background:linear-gradient(135deg,#FFD700,#FFA500);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;" id="stat3">0</div>
+      <div style="font-size:13px;color:#666;margin-top:6px;font-weight:600;">عملية شراء</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:clamp(2rem,4vw,3rem);font-weight:900;background:linear-gradient(135deg,#FFD700,#FFA500);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;" id="stat4">0</div>
+      <div style="font-size:13px;color:#666;margin-top:6px;font-weight:600;">دولة مستخدمة</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ HOW IT WORKS ═══════════════════ -->
+<section id="how" style="max-width:1280px;margin:0 auto 100px;padding:0 20px;">
+  <div style="text-align:center;margin-bottom:56px;">
+    <div style="display:inline-block;background:rgba(255,215,0,.08);border:1px solid rgba(255,215,0,.2);border-radius:100px;padding:7px 20px;font-size:12px;font-weight:800;color:#FFD700;margin-bottom:20px;letter-spacing:.1em;text-transform:uppercase;">نظامنا الحصري</div>
+    <h2 style="font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;margin-bottom:16px;">نطوّر، لا نرفض</h2>
+    <p style="color:#666;max-width:560px;margin:0 auto;font-size:15px;line-height:1.8;">بينما تُهدر المنصات الأجنبية 70% من الأوامر بالرفض التعسفي، نظامنا يُحسّن أمرك ذكياً ويضمن قبوله ونجاحه.</p>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;position:relative;">
+    <div class="step-card">
+      <div class="step-num">01</div>
+      <div style="font-size:36px;margin-bottom:16px;position:relative;z-index:1;">📤</div>
+      <h3 style="font-size:17px;font-weight:800;margin-bottom:10px;position:relative;z-index:1;">ترفع أمرك الخام</h3>
+      <p style="font-size:13px;color:#555;line-height:1.7;position:relative;z-index:1;">لا يهم إن كان غير مكتمل. ارفعه بأي شكل — حتى لو مسودة.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">02</div>
+      <div style="font-size:36px;margin-bottom:16px;position:relative;z-index:1;">🤖</div>
+      <h3 style="font-size:17px;font-weight:800;margin-bottom:10px;position:relative;z-index:1;">ذكاؤنا يحلّله</h3>
+      <p style="font-size:13px;color:#555;line-height:1.7;position:relative;z-index:1;">نظامنا المبني على GPT-4 يفحص الأمر ويحدد نقاط قوته وفرص تحسينه.</p>
+    </div>
+    <div class="step-card" style="border-color:rgba(255,215,0,.2);">
+      <div class="step-num">03</div>
+      <div style="font-size:36px;margin-bottom:16px;position:relative;z-index:1;">✨</div>
+      <h3 style="font-size:17px;font-weight:800;margin-bottom:10px;position:relative;z-index:1;">نقترح التحسينات</h3>
+      <p style="font-size:13px;color:#555;line-height:1.7;position:relative;z-index:1;">تستلم مقارنة مرئية: النسخة الأصلية مقابل النسخة المحسّنة. القرار بيدك.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-num">04</div>
+      <div style="font-size:36px;margin-bottom:16px;position:relative;z-index:1;">💰</div>
+      <h3 style="font-size:17px;font-weight:800;margin-bottom:10px;position:relative;z-index:1;">تبدأ الأرباح</h3>
+      <p style="font-size:13px;color:#555;line-height:1.7;position:relative;z-index:1;">يُنشر أمرك في المتجر ويبدأ العالم العربي بشرائه فوراً.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ MARKET ═══════════════════ -->
+<section id="market" style="max-width:1280px;margin:0 auto 100px;padding:0 20px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:32px;flex-wrap:gap;">
+    <h2 style="font-size:clamp(1.6rem,3vw,2.4rem);font-weight:900;" class="gold-grad">المستودع الملكي ✦</h2>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <input id="searchInput" oninput="filterCards()" placeholder="🔍 ابحث عن أمر..." style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:10px 18px;color:#fff;font-family:'Cairo',sans-serif;font-size:13px;outline:none;width:220px;" onfocus="this.style.borderColor='#FFD700'" onblur="this.style.borderColor='rgba(255,255,255,.08)'">
+    </div>
+  </div>
+
+  <!-- Category Filter -->
+  <div style="display:flex;gap:10px;overflow-x:auto;padding-bottom:12px;margin-bottom:36px;-ms-overflow-style:none;scrollbar-width:none;">
+    <button class="cat-pill active" onclick="filterCat(this,'all')">الكل</button>
+    <button class="cat-pill" onclick="filterCat(this,'business')">أعمال وتجارة</button>
+    <button class="cat-pill" onclick="filterCat(this,'design')">تصميم وفنون</button>
+    <button class="cat-pill" onclick="filterCat(this,'writing')">كتابة وإبداع</button>
+    <button class="cat-pill" onclick="filterCat(this,'marketing')">تسويق رقمي</button>
+    <button class="cat-pill" onclick="filterCat(this,'data')">بيانات وتحليل</button>
+    <button class="cat-pill" onclick="filterCat(this,'legal')">قانون وعقود</button>
+    <button class="cat-pill" onclick="filterCat(this,'video')">فيديو وإنتاج</button>
+  </div>
+
+  <!-- Cards Grid -->
+  <div id="cardsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;"></div>
+</section>
+
+<!-- ═══════════════════ SELLER PLANS ═══════════════════ -->
+<section id="plans" style="max-width:1280px;margin:0 auto 100px;padding:0 20px;">
+  <div style="text-align:center;margin-bottom:56px;">
+    <div style="display:inline-block;background:rgba(255,215,0,.08);border:1px solid rgba(255,215,0,.2);border-radius:100px;padding:7px 20px;font-size:12px;font-weight:800;color:#FFD700;margin-bottom:20px;letter-spacing:.1em;text-transform:uppercase;">اشتراكات البائعين</div>
+    <h2 style="font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;margin-bottom:16px;">ابدأ مجاناً، اكبر بلا حدود</h2>
+    <p style="color:#666;max-width:500px;margin:0 auto;font-size:15px;line-height:1.8;">اختر الخطة التي تناسب طموحك. كل خطة تشمل التحسين الذكي للأوامر والدعم العربي الكامل.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;align-items:center;">
+    <!-- Starter -->
+    <div class="plan-card">
+      <div style="font-size:12px;font-weight:800;color:#666;letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px;">مبتدئ</div>
+      <div style="font-size:42px;font-weight:900;margin-bottom:4px;">مجاناً</div>
+      <div style="font-size:13px;color:#555;margin-bottom:28px;">للبدء بلا مخاطرة</div>
+      <div style="height:1px;background:rgba(255,255,255,.06);margin-bottom:24px;"></div>
+      <div class="plan-feature"><span class="check">✦</span><span>5 أوامر منشورة</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>عمولة 18%</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>تحليل ذكي أساسي</span></div>
+      <div class="plan-feature"><span class="cross">—</span><span style="color:#3a3a3a;">ترقية صورة الأمر</span></div>
+      <div class="plan-feature"><span class="cross">—</span><span style="color:#3a3a3a;">دعم أولوية</span></div>
+      <div class="plan-feature"><span class="cross">—</span><span style="color:#3a3a3a;">تحليلات متقدمة</span></div>
+      <button onclick="showToast('🎉 تم تسجيلك في الخطة المجانية!')" class="btn-outline" style="width:100%;margin-top:28px;padding:14px;border-radius:14px;font-size:14px;">ابدأ مجاناً</button>
+    </div>
+
+    <!-- Pro (featured) -->
+    <div class="plan-card featured" style="position:relative;">
+      <div style="position:absolute;top:-14px;right:50%;transform:translateX(50%);background:linear-gradient(135deg,#FFD700,#FFA500);color:#000;font-size:11px;font-weight:900;padding:6px 20px;border-radius:100px;white-space:nowrap;">الأكثر شعبية ⭐</div>
+      <div style="font-size:12px;font-weight:800;color:#FFD700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px;">محترف</div>
+      <div style="font-size:42px;font-weight:900;margin-bottom:4px;">$<span style="font-size:52px;">19</span></div>
+      <div style="font-size:13px;color:#555;margin-bottom:28px;">شهرياً • وفر 40% سنوياً</div>
+      <div style="height:1px;background:rgba(255,215,0,.15);margin-bottom:24px;"></div>
+      <div class="plan-feature"><span class="check">✦</span><span>50 أمر منشور</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>عمولة 10%</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>تحليل ذكي متقدم</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>ترقية صورة الأمر بـ AI</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>دعم أولوية 24/7</span></div>
+      <div class="plan-feature"><span class="cross">—</span><span style="color:#3a3a3a;">أمر مميز في الصفحة الرئيسية</span></div>
+      <button onclick="showToast('🌟 جاري تفعيل الاشتراك الاحترافي!')" class="btn-gold" style="width:100%;margin-top:28px;padding:14px;border-radius:14px;font-size:14px;">اشترك الآن</button>
+    </div>
+
+    <!-- Emperor -->
+    <div class="plan-card">
+      <div style="font-size:12px;font-weight:800;color:#666;letter-spacing:.15em;text-transform:uppercase;margin-bottom:12px;">إمبراطور</div>
+      <div style="font-size:42px;font-weight:900;margin-bottom:4px;">$<span style="font-size:52px;">49</span></div>
+      <div style="font-size:13px;color:#555;margin-bottom:28px;">شهرياً • للمحترفين فقط</div>
+      <div style="height:1px;background:rgba(255,255,255,.06);margin-bottom:24px;"></div>
+      <div class="plan-feature"><span class="check">✦</span><span>أوامر غير محدودة</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>عمولة 5% فقط</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>تحليل ذكي شامل</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>ترقية تلقائية بـ AI</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>مدير حساب شخصي</span></div>
+      <div class="plan-feature"><span class="check">✦</span><span>أمر مميز في الصفحة الرئيسية</span></div>
+      <button onclick="showToast('👑 مرحباً بك في مرتبة الإمبراطور!')" class="btn-outline" style="width:100%;margin-top:28px;padding:14px;border-radius:14px;font-size:14px;">كن إمبراطوراً</button>
+    </div>
+  </div>
+
+  <!-- Commission comparison -->
+  <div class="glass" style="border-radius:20px;padding:32px;margin-top:32px;">
+    <h3 style="font-size:15px;font-weight:800;color:#666;margin-bottom:20px;letter-spacing:.1em;text-transform:uppercase;">مقارنة العمولات مع المنافسين</h3>
+    <div style="display:grid;gap:14px;">
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div style="width:100px;font-size:13px;font-weight:700;color:#FFD700;flex-shrink:0;">أطلس (Starter)</div>
+        <div style="flex:1;background:rgba(255,255,255,.04);border-radius:100px;height:10px;overflow:hidden;">
+          <div style="width:18%;height:100%;background:linear-gradient(90deg,#FFD700,#FFA500);border-radius:100px;"></div>
+        </div>
+        <div style="font-size:13px;font-weight:800;color:#FFD700;width:40px;text-align:left;">18%</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div style="width:100px;font-size:13px;font-weight:700;color:#FFD700;flex-shrink:0;">أطلس (Pro)</div>
+        <div style="flex:1;background:rgba(255,255,255,.04);border-radius:100px;height:10px;overflow:hidden;">
+          <div style="width:10%;height:100%;background:linear-gradient(90deg,#FFD700,#FFA500);border-radius:100px;"></div>
+        </div>
+        <div style="font-size:13px;font-weight:800;color:#FFD700;width:40px;text-align:left;">10%</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div style="width:100px;font-size:13px;font-weight:700;color:#555;flex-shrink:0;">المنصات الأجنبية</div>
+        <div style="flex:1;background:rgba(255,255,255,.04);border-radius:100px;height:10px;overflow:hidden;">
+          <div style="width:20%;height:100%;background:#2a2a2a;border-radius:100px;"></div>
+        </div>
+        <div style="font-size:13px;font-weight:800;color:#555;width:40px;text-align:left;">20%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ DONATION ═══════════════════ -->
+<section id="donate" style="max-width:1280px;margin:0 auto 100px;padding:0 20px;">
+  <div style="border-radius:32px;overflow:hidden;position:relative;background:linear-gradient(135deg,#080808 0%,#0f0e00 50%,#080808 100%);border:1px solid rgba(255,215,0,.2);padding:60px 48px;">
+    <!-- Decorative circle -->
+    <div style="position:absolute;top:-100px;left:-100px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(255,215,0,.06),transparent 70%);pointer-events:none;"></div>
+    <div style="position:absolute;bottom:-100px;right:-100px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(255,165,0,.05),transparent 70%);pointer-events:none;"></div>
+
+    <div style="max-width:720px;position:relative;z-index:1;">
+      <div style="font-size:11px;font-weight:800;color:#FFD700;letter-spacing:.25em;text-transform:uppercase;margin-bottom:20px;">رسالة المنصة</div>
+      <h2 style="font-size:clamp(1.8rem,4vw,3rem);font-weight:900;line-height:1.3;margin-bottom:24px;">
+        ندعم المحتوى العربي<br>
+        <span class="gold-grad">في زمن الذكاء الاصطناعي</span>
+      </h2>
+      <p style="font-size:16px;color:#777;line-height:1.9;margin-bottom:16px;">
+        في عصر تسيطر فيه اللغة الإنجليزية على 90% من أوامر الذكاء الاصطناعي، نحن نبني الجسر الذي يجعل العقل الآلي يفكر، يبدع، ويُنتج بالعربية.
+      </p>
+      <p style="font-size:15px;color:#555;line-height:1.9;margin-bottom:40px;">
+        كل تبرع يساهم في تطوير المنصة، بناء قاعدة بيانات عربية للذكاء الاصطناعي، ومنح المبدعين العرب حضوراً عالمياً يستحقونه.
+      </p>
+
+      <!-- Donation amounts -->
+      <div style="margin-bottom:24px;">
+        <div style="font-size:13px;font-weight:700;color:#666;margin-bottom:14px;">اختر مبلغ التبرع:</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <button class="donate-amt" onclick="selectDonate(this,'5')">$5</button>
+          <button class="donate-amt sel" onclick="selectDonate(this,'10')">$10</button>
+          <button class="donate-amt" onclick="selectDonate(this,'25')">$25</button>
+          <button class="donate-amt" onclick="selectDonate(this,'50')">$50</button>
+          <input id="customDonate" type="number" placeholder="مبلغ آخر..." style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:12px 16px;color:#fff;font-family:'Cairo',sans-serif;font-size:15px;width:130px;outline:none;" onfocus="this.style.borderColor='#FFD700'" onblur="this.style.borderColor='rgba(255,255,255,.1)'">
+        </div>
+      </div>
+
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <button onclick="donate()" class="btn-gold" style="padding:16px 36px;border-radius:16px;font-size:15px;">
+          💛 تبرع الآن لدعم العربية
+        </button>
+        <button class="btn-outline" style="padding:16px 28px;border-radius:16px;font-size:14px;" onclick="showToast('🔗 تم نسخ رابط المشاركة!')">شارك المبادرة</button>
+      </div>
+    </div>
+
+    <!-- Donation counter -->
+    <div style="position:absolute;bottom:32px;left:48px;text-align:left;">
+      <div style="font-size:11px;color:#444;font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:6px;">تم جمعه حتى الآن</div>
+      <div style="font-size:36px;font-weight:900;" class="gold-grad">$24,870</div>
+      <div style="font-size:12px;color:#444;margin-top:4px;">من 1,240 داعم عربي</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ MANIFESTO ARTICLE ═══════════════════ -->
+<section id="manifesto" style="max-width:1280px;margin:0 auto 120px;padding:0 20px;">
+
+  <div style="text-align:center;margin-bottom:64px;">
+    <div style="display:inline-block;background:rgba(255,215,0,.08);border:1px solid rgba(255,215,0,.2);border-radius:100px;padding:7px 20px;font-size:12px;font-weight:800;color:#FFD700;margin-bottom:20px;letter-spacing:.15em;text-transform:uppercase;">بيان المنصة</div>
+    <h2 style="font-size:clamp(2rem,5vw,3.5rem);font-weight:900;line-height:1.2;margin-bottom:16px;">
+      العربية تنتصر<br><span class="gold-grad">في زمن الذكاء الاصطناعي</span>
+    </h2>
+  </div>
+
+  <!-- Two-column layout: SVG artwork + Article -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;">
+
+    <!-- ── Creative SVG Illustration ── -->
+    <div style="position:sticky;top:100px;">
+      <svg viewBox="0 0 520 580" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:520px;display:block;margin:0 auto;" aria-label="اندماج اللغة العربية مع الذكاء الاصطناعي وهندسة البرومبت">
+        <defs>
+          <!-- Gold gradient -->
+          <linearGradient id="gGold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFD700"/>
+            <stop offset="50%" stop-color="#FFA500"/>
+            <stop offset="100%" stop-color="#FFD700"/>
+          </linearGradient>
+          <!-- Radial glow -->
+          <radialGradient id="gGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFD700" stop-opacity="0.18"/>
+            <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+          </radialGradient>
+          <!-- Deep space gradient -->
+          <radialGradient id="gSpace" cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#0d0a00"/>
+            <stop offset="100%" stop-color="#000"/>
+          </radialGradient>
+          <!-- Neural glow -->
+          <filter id="fGlow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="4" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          <filter id="fSoftGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="10" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+
+        <!-- Background -->
+        <rect width="520" height="580" rx="28" fill="url(#gSpace)"/>
+        <rect width="520" height="580" rx="28" fill="url(#gGlow)"/>
+
+        <!-- Grid lines (subtle) -->
+        <g opacity="0.07" stroke="#FFD700" stroke-width="0.5">
+          <line x1="0" y1="96" x2="520" y2="96"/>
+          <line x1="0" y1="192" x2="520" y2="192"/>
+          <line x1="0" y1="288" x2="520" y2="288"/>
+          <line x1="0" y1="384" x2="520" y2="384"/>
+          <line x1="0" y1="480" x2="520" y2="480"/>
+          <line x1="104" y1="0" x2="104" y2="580"/>
+          <line x1="208" y1="0" x2="208" y2="580"/>
+          <line x1="312" y1="0" x2="312" y2="580"/>
+          <line x1="416" y1="0" x2="416" y2="580"/>
+        </g>
+
+        <!-- Neural network connections (background) -->
+        <g opacity="0.2" stroke="#FFD700" stroke-width="0.8" fill="none">
+          <line x1="80" y1="120" x2="200" y2="200"/>
+          <line x1="200" y1="200" x2="320" y2="140"/>
+          <line x1="320" y1="140" x2="440" y2="220"/>
+          <line x1="80" y1="120" x2="140" y2="300"/>
+          <line x1="440" y1="220" x2="380" y2="360"/>
+          <line x1="140" y1="300" x2="260" y2="380"/>
+          <line x1="380" y1="360" x2="260" y2="380"/>
+          <line x1="200" y1="200" x2="260" y2="380"/>
+          <line x1="260" y1="380" x2="200" y2="490"/>
+          <line x1="260" y1="380" x2="340" y2="480"/>
+          <line x1="140" y1="300" x2="80" y2="450"/>
+          <line x1="380" y1="360" x2="450" y2="470"/>
+          <line x1="80" y1="450" x2="200" y2="490"/>
+          <line x1="200" y1="490" x2="340" y2="480"/>
+          <line x1="340" y1="480" x2="450" y2="470"/>
+        </g>
+
+        <!-- Neural nodes -->
+        <g filter="url(#fGlow)">
+          <!-- Row 1 -->
+          <circle cx="80" cy="120" r="6" fill="#FFD700" opacity="0.9"/>
+          <circle cx="200" cy="200" r="8" fill="#FFD700" opacity="0.7"/>
+          <circle cx="320" cy="140" r="5" fill="#FFA500" opacity="0.8"/>
+          <circle cx="440" cy="220" r="6" fill="#FFD700" opacity="0.9"/>
+          <!-- Row 2 -->
+          <circle cx="140" cy="300" r="7" fill="#FFA500" opacity="0.7"/>
+          <circle cx="380" cy="360" r="6" fill="#FFD700" opacity="0.8"/>
+          <!-- Row 3 -->
+          <circle cx="80" cy="450" r="5" fill="#FFD700" opacity="0.6"/>
+          <circle cx="200" cy="490" r="6" fill="#FFA500" opacity="0.7"/>
+          <circle cx="340" cy="480" r="7" fill="#FFD700" opacity="0.8"/>
+          <circle cx="450" cy="470" r="5" fill="#FFA500" opacity="0.6"/>
+        </g>
+
+        <!-- Central glow orb -->
+        <circle cx="260" cy="285" r="120" fill="url(#gGlow)" opacity="0.8"/>
+        <circle cx="260" cy="285" r="75" fill="none" stroke="#FFD700" stroke-width="0.6" stroke-dasharray="4 6" opacity="0.3">
+          <animateTransform attributeName="transform" type="rotate" from="0 260 285" to="360 260 285" dur="30s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="260" cy="285" r="100" fill="none" stroke="#FFA500" stroke-width="0.4" stroke-dasharray="2 10" opacity="0.2">
+          <animateTransform attributeName="transform" type="rotate" from="360 260 285" to="0 260 285" dur="45s" repeatCount="indefinite"/>
+        </circle>
+
+        <!-- Central hexagon (AI core) -->
+        <polygon points="260,210 315,242 315,310 260,342 205,310 205,242" fill="rgba(255,215,0,0.06)" stroke="#FFD700" stroke-width="1.5" opacity="0.8"/>
+        <polygon points="260,222 305,248 305,302 260,328 215,302 215,248" fill="rgba(255,215,0,0.04)" stroke="#FFD700" stroke-width="0.6" opacity="0.5"/>
+
+        <!-- Arabic letter ع (Ayn) — grand central -->
+        <text x="260" y="306" text-anchor="middle" font-family="Georgia, serif" font-size="88" fill="url(#gGold)" filter="url(#fSoftGlow)" opacity="0.95">ع</text>
+
+        <!-- Arabic calligraphy strokes (decorative) -->
+        <text x="80" y="75" font-family="Georgia,serif" font-size="22" fill="#FFD700" opacity="0.35">ض</text>
+        <text x="420" y="88" font-family="Georgia,serif" font-size="18" fill="#FFD700" opacity="0.25">م</text>
+        <text x="50" y="390" font-family="Georgia,serif" font-size="16" fill="#FFD700" opacity="0.2">ن</text>
+        <text x="450" y="170" font-family="Georgia,serif" font-size="20" fill="#FFA500" opacity="0.25">ذ</text>
+        <text x="430" y="530" font-family="Georgia,serif" font-size="18" fill="#FFD700" opacity="0.2">ك</text>
+        <text x="70" y="545" font-family="Georgia,serif" font-size="16" fill="#FFA500" opacity="0.2">ء</text>
+
+        <!-- Prompt code lines (top right area) -->
+        <g opacity="0.55" font-family="'Courier New', monospace" font-size="9.5" fill="#FFD700">
+          <text x="330" y="60">[SYSTEM]: أنت خبير</text>
+          <text x="330" y="74">[ROLE]: محلل بيانات</text>
+          <text x="330" y="88">[LANG]: العربية الفصحى</text>
+          <text x="330" y="102">[OUTPUT]: تقرير احترافي</text>
+        </g>
+
+        <!-- AI output lines (bottom left) -->
+        <g opacity="0.45" font-family="'Courier New', monospace" font-size="9" fill="#FFA500">
+          <text x="24" y="490">▶ تحليل السوق</text>
+          <text x="24" y="503">▶ إنشاء المحتوى</text>
+          <text x="24" y="516">▶ ترجمة ذكية</text>
+          <text x="24" y="529">▶ برمجة إبداعية</text>
+        </g>
+
+        <!-- Tool labels floating -->
+        <g filter="url(#fGlow)">
+          <rect x="14" y="130" width="78" height="22" rx="11" fill="rgba(255,215,0,0.1)" stroke="#FFD700" stroke-width="0.7" opacity="0.8"/>
+          <text x="53" y="145" text-anchor="middle" font-family="Cairo, sans-serif" font-size="9.5" fill="#FFD700" opacity="0.9">ChatGPT</text>
+
+          <rect x="420" y="285" width="82" height="22" rx="11" fill="rgba(255,165,0,0.1)" stroke="#FFA500" stroke-width="0.7" opacity="0.8"/>
+          <text x="461" y="300" text-anchor="middle" font-family="Cairo, sans-serif" font-size="9.5" fill="#FFA500" opacity="0.9">Midjourney</text>
+
+          <rect x="195" y="520" width="70" height="22" rx="11" fill="rgba(255,215,0,0.1)" stroke="#FFD700" stroke-width="0.7" opacity="0.7"/>
+          <text x="230" y="535" text-anchor="middle" font-family="Cairo, sans-serif" font-size="9.5" fill="#FFD700" opacity="0.8">Claude AI</text>
+
+          <rect x="24" y="160" width="64" height="22" rx="11" fill="rgba(255,215,0,0.08)" stroke="#FFD700" stroke-width="0.6" opacity="0.6"/>
+          <text x="56" y="175" text-anchor="middle" font-family="Cairo, sans-serif" font-size="9.5" fill="#FFD700" opacity="0.7">Gemini</text>
+        </g>
+
+        <!-- Bottom label -->
+        <text x="260" y="565" text-anchor="middle" font-family="Cairo, sans-serif" font-size="11" fill="#FFD700" opacity="0.4" letter-spacing="3">هندسة البرومبت العربي</text>
+      </svg>
+
+      <!-- Caption under artwork -->
+      <div style="text-align:center;margin-top:20px;">
+        <div style="font-size:11px;color:#333;font-weight:700;letter-spacing:.15em;text-transform:uppercase;">لوحة: اندماج اللغة العربية مع الذكاء الاصطناعي</div>
+      </div>
+    </div>
+
+    <!-- ── Manifesto Article ── -->
+    <article style="padding-top:8px;" itemscope itemtype="https://schema.org/Article">
+      <meta itemprop="author" content="أحمد سالم أعمر حداد">
+      <meta itemprop="datePublished" content="2026-01-01">
+      <meta itemprop="publisher" content="أطلس برومبتس">
+
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:36px;">
+        <div style="width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#FFD700,#FFA500);display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:900;color:#000;flex-shrink:0;border:2px solid rgba(255,215,0,.25);">أ</div>
+        <div>
+          <div style="font-weight:900;font-size:16px;" itemprop="name">أحمد سالم أعمر حداد</div>
+          <div style="font-size:12px;color:#555;margin-top:2px;">المؤسس والرئيس التنفيذي | أطلس برومبتس</div>
+        </div>
+      </div>
+
+      <h3 itemprop="headline" style="font-size:clamp(18px,2.8vw,24px);font-weight:900;line-height:1.4;margin-bottom:24px;color:#F0EFE8;">
+        حين تتكلم الآلة بلغتنا — معركة السيادة الرقمية العربية
+      </h3>
+
+      <div itemprop="articleBody" style="font-size:15px;color:#666;line-height:2.0;display:flex;flex-direction:column;gap:20px;">
+        <p>
+          <span style="font-size:42px;font-weight:900;color:#FFD700;float:right;line-height:1;margin-left:12px;margin-top:4px;">ف</span>
+          في عام 2024، تجاوز عدد مستخدمي الذكاء الاصطناعي التوليدي 600 مليون إنسان حول العالم. وبينما كانت الأسواق الغربية تبني ثرواتها على بيع الأوامر والبرومبتات الاحترافية، كان العالم العربي — بأكثر من 400 مليون ناطق بالضاد — يقف على الهامش ناظراً، لا مشاركاً.
+        </p>
+        <p>
+          هذه ليست صدفة. إنها <span style="color:#FFD700;font-weight:700;">فجوة مقصودة</span> تتسع يوماً بعد يوم: فجوة بين من يصنع التقنية وبين من يستهلكها. وكانت حصتنا من كعكة هندسة البرومبت صفراً مدوّياً في منصات دولية تحتكر هذا السوق وترفض المحتوى العربي بحجج واهية، أو تتجاهله بصمت مريب.
+        </p>
+        <div style="border-right:3px solid #FFD700;padding-right:20px;background:rgba(255,215,0,.04);border-radius:0 12px 12px 0;padding:16px 20px;padding-right:24px;">
+          <p style="font-size:17px;font-weight:600;color:#ccc;font-style:italic;line-height:1.8;margin:0;">
+            "الثروات تُبنى بالأفكار — والأفكار العربية أثبتت عبر الحضارات أنها قادرة على أن تقود العالم. واجبنا اليوم أن نُحرر الذكاء الاصطناعي من اللغة الواحدة."
+          </p>
+        </div>
+        <p>
+          <strong style="color:#F0EFE8;">أطلس برومبتس</strong> وُلد من إيمان راسخ: أن اللغة العربية ليست مجرد لغة تواصل، بل هي نظام معرفي عريق يمتلك من الدقة والعمق ما يجعله أقدر من غيره على تأطير الأوامر الذكية. حرف الضاد الذي وُصف قديماً بـ"أصعب أصوات البشرية" يمتلك اليوم قدرة فريدة على هندسة الأوامر التي تُخرج أفضل ما في الذكاء الاصطناعي.
+        </p>
+        <p>
+          لقد آن الأوان لتحويل <span style="color:#FFD700;font-weight:700;">الهوية الثقافية إلى رأس مال رقمي</span>. كل شاعر، كل كاتب، كل مفكر عربي يحمل في معجمه اللغوي كنزاً لا يُقدّر قيمته — وهذه المنصة هي البوابة التي تُحوّل هذا الكنز إلى ثروة حقيقية وأداة سيادة.
+        </p>
+        <p>
+          نحن لا نعيد ترجمة ما أنتجه غيرنا. نحن <strong style="color:#F0EFE8;">نبني من الصفر</strong>: أوامر صُمّمت للسوق العربي، وفهمت ثقافته، واحترمت سياقه، وتحدثت بلهجته. من تحليل أسواق الخليج إلى كتابة محتوى يمس قلب المغاربي والمصري والشامي — بدقة لا تعرفها خوارزمية أُسقطت من بيئة أجنبية.
+        </p>
+        <div style="background:rgba(255,215,0,.05);border:1px solid rgba(255,215,0,.15);border-radius:16px;padding:20px 24px;">
+          <div style="font-size:12px;font-weight:800;color:#FFD700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:16px;">أرقام المعركة</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+            <div><div style="font-size:28px;font-weight:900;color:#FFD700;">400M+</div><div style="font-size:12px;color:#555;margin-top:2px;">ناطق بالعربية في العالم</div></div>
+            <div><div style="font-size:28px;font-weight:900;color:#FFD700;">&lt;3%</div><div style="font-size:12px;color:#555;margin-top:2px;">من أوامر AI هي عربية</div></div>
+            <div><div style="font-size:28px;font-weight:900;color:#FFD700;">$2.3B</div><div style="font-size:12px;color:#555;margin-top:2px;">حجم سوق AI العربي 2026</div></div>
+            <div><div style="font-size:28px;font-weight:900;color:#FFD700;">صفر</div><div style="font-size:12px;color:#555;margin-top:2px;">منصات عربية متخصصة قبلنا</div></div>
+          </div>
+        </div>
+        <p>
+          انضم إلى هذه المعركة. ليس كمستهلك، بل كصانع. بِع خبرتك. اشترِ قوةً جديدة. وساهم في بناء مستقبل يتحدث الذكاء الاصطناعي فيه بلغتنا، ويفهم أحلامنا، ويُنجز طموحاتنا.
+        </p>
+        <p style="font-size:14px;color:#444;font-style:italic;">
+          — كتب هذه المقالة أحمد سالم أعمر حداد، يناير 2026
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer style="border-top:1px solid rgba(255,255,255,.04);padding:64px 20px 40px;">
+  <div style="max-width:1280px;margin:0 auto;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:40px;margin-bottom:48px;">
+      <!-- Brand -->
+      <div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
+          <svg width="38" height="38" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#111"/><text x="32" y="44" text-anchor="middle" font-family="Georgia,serif" font-size="26" fill="#FFD700">ع</text></svg>
+          <div><div style="font-weight:900;font-size:15px;color:#FFD700;">ATLAS PROMPTS</div><div style="font-size:10px;color:#444;letter-spacing:.1em;">أطلس برومبتس</div></div>
+        </div>
+        <p style="font-size:13px;color:#444;line-height:1.8;max-width:280px;">أول وأكبر سوق عربي متخصص في بيع وشراء أوامر الذكاء الاصطناعي. نطور أوامرك ولا نرفضها.</p>
+        <div style="display:flex;gap:14px;margin-top:24px;">
+          <a href="https://twitter.com/AtlasPrompts" target="_blank" rel="noopener" style="width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:#555;text-decoration:none;font-size:14px;transition:all .3s;" onmouseover="this.style.borderColor='#FFD700';this.style.color='#FFD700'" onmouseout="this.style.borderColor='rgba(255,255,255,.08)';this.style.color='#555'" title="أطلس على X (تويتر)">𝕏</a>
+          <a href="https://linkedin.com/company/atlas-prompts" target="_blank" rel="noopener" style="width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:#555;text-decoration:none;font-size:14px;transition:all .3s;" onmouseover="this.style.borderColor='#FFD700';this.style.color='#FFD700'" onmouseout="this.style.borderColor='rgba(255,255,255,.08)';this.style.color='#555'" title="أطلس على LinkedIn">in</a>
+          <a href="mailto:hello@atlasprompts.com" style="width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:#555;text-decoration:none;font-size:16px;transition:all .3s;" onmouseover="this.style.borderColor='#FFD700';this.style.color='#FFD700'" onmouseout="this.style.borderColor='rgba(255,255,255,.08)';this.style.color='#555'" title="راسلنا بالبريد">✉</a>
+        </div>
+      </div>
+      <!-- Links -->
+      <div>
+        <div style="font-size:11px;font-weight:800;color:#444;letter-spacing:.2em;text-transform:uppercase;margin-bottom:20px;">المنصة</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <a href="#market" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">المستودع</a>
+          <a href="#how" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">كيف يعمل؟</a>
+          <a href="#plans" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">اشتراكات البائعين</a>
+          <a href="#manifesto" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">بياننا</a>
+          <a href="#donate" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">ادعم المنصة</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:800;color:#444;letter-spacing:.2em;text-transform:uppercase;margin-bottom:20px;">قانوني</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <a href="privacy.html" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">سياسة الخصوصية</a>
+          <a href="terms.html" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">شروط الاستخدام</a>
+          <a href="terms.html#t6" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">حقوق الملكية</a>
+          <a href="terms.html#t4" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">سياسة الاسترداد</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:800;color:#444;letter-spacing:.2em;text-transform:uppercase;margin-bottom:20px;">الدعم</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <a href="login.html" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">مركز المساعدة</a>
+          <a href="mailto:hello@atlasprompts.com" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">تواصل معنا</a>
+          <a href="mailto:support@atlasprompts.com" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">الإبلاغ عن مشكلة</a>
+          <a href="#manifesto" style="font-size:14px;color:#555;text-decoration:none;transition:color .3s;" onmouseover="this.style.color='#FFD700'" onmouseout="this.style.color='#555'">بياننا</a>
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,.04);padding-top:28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+      <div style="font-size:12px;color:#333;font-weight:700;letter-spacing:.1em;">© 2026 أطلس برومبتس • جميع الحقوق محفوظة</div>
+      <div style="font-size:12px;color:#333;">صُنع بـ 💛 لدعم المحتوى العربي</div>
+    </div>
+  </div>
+</footer>
+
+<!-- ════════════════════════════════════════
+     MODALS
+════════════════════════════════════════ -->
+
+<!-- ── Dashboard Modal ── -->
+<div id="dashboardModal" class="modal-overlay" onclick="if(event.target===this)closeModals()">
+  <div class="modal-box glass" style="max-width:900px;">
+    <div style="padding:32px 36px;">
+      <!-- Header -->
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;">
+        <div>
+          <h2 style="font-size:22px;font-weight:900;margin-bottom:4px;" class="gold-grad">لوحة التحكم</h2>
+          <div style="font-size:13px;color:#555;">مرحباً، أحمد 👋 — إمبراطور المنصة</div>
+        </div>
+        <button onclick="closeModals()" style="background:rgba(255,255,255,.06);border:none;color:#666;width:38px;height:38px;border-radius:10px;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;">✕</button>
+      </div>
+
+      <!-- Dash Nav -->
+      <div style="display:flex;gap:8px;margin-bottom:28px;overflow-x:auto;">
+        <button class="dash-nav-btn active" onclick="switchDash(this,'dOverview')">📊 النظرة العامة</button>
+        <button class="dash-nav-btn" onclick="switchDash(this,'dEarnings')">💰 الأرباح</button>
+        <button class="dash-nav-btn" onclick="switchDash(this,'dPrompts')">📋 أوامري</button>
+        <button class="dash-nav-btn" onclick="switchDash(this,'dSettings')">⚙️ الإعدادات</button>
+      </div>
+
+      <!-- Tab: Overview -->
+      <div id="dOverview" class="dash-tab active">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:28px;">
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:20px;">
+            <div style="font-size:11px;color:#444;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.1em;">إجمالي الأرباح</div>
+            <div style="font-size:28px;font-weight:900;" class="gold-grad">$3,840</div>
+            <div style="font-size:11px;color:#22c55e;margin-top:4px;">▲ +12.4% هذا الشهر</div>
+          </div>
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:20px;">
+            <div style="font-size:11px;color:#444;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.1em;">عدد المبيعات</div>
+            <div style="font-size:28px;font-weight:900;color:#fff;">127</div>
+            <div style="font-size:11px;color:#22c55e;margin-top:4px;">▲ +8 هذا الأسبوع</div>
+          </div>
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:20px;">
+            <div style="font-size:11px;color:#444;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.1em;">أوامر منشورة</div>
+            <div style="font-size:28px;font-weight:900;color:#fff;">8</div>
+            <div style="font-size:11px;color:#FFD700;margin-top:4px;">بانتظار المراجعة: 2</div>
+          </div>
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:20px;">
+            <div style="font-size:11px;color:#444;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.1em;">متوسط التقييم</div>
+            <div style="font-size:28px;font-weight:900;color:#fff;">4.8 ⭐</div>
+            <div style="font-size:11px;color:#22c55e;margin-top:4px;">من 89 تقييم</div>
+          </div>
+        </div>
+        <!-- Recent sales -->
+        <h3 style="font-size:15px;font-weight:800;margin-bottom:16px;">آخر المبيعات</h3>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:14px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;">
+            <div><div style="font-weight:700;font-size:14px;">محلل الأسواق السيادي</div><div style="font-size:12px;color:#555;margin-top:2px;">منذ 3 ساعات • مشترٍ من السعودية</div></div>
+            <div style="color:#FFD700;font-weight:900;font-size:16px;">+$40.50</div>
+          </div>
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:14px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;">
+            <div><div style="font-weight:700;font-size:14px;">مصمم الهوية الملكية</div><div style="font-size:12px;color:#555;margin-top:2px;">منذ يوم • مشترٍ من الإمارات</div></div>
+            <div style="color:#FFD700;font-weight:900;font-size:16px;">+$34.20</div>
+          </div>
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:14px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;">
+            <div><div style="font-weight:700;font-size:14px;">كاتب المحتوى الإبداعي</div><div style="font-size:12px;color:#555;margin-top:2px;">منذ يومين • مشترٍ من مصر</div></div>
+            <div style="color:#FFD700;font-weight:900;font-size:16px;">+$26.10</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: Earnings -->
+      <div id="dEarnings" class="dash-tab">
+        <h3 style="font-size:15px;font-weight:800;margin-bottom:20px;">الأرباح الشهرية (2026)</h3>
+        <div style="display:flex;align-items:flex-end;gap:10px;height:130px;padding:0 4px;margin-bottom:16px;" id="earningsChart"></div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:#444;font-weight:700;padding:0 4px;margin-bottom:28px;" id="earningsLabels"></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <div style="background:rgba(255,215,0,.05);border:1px solid rgba(255,215,0,.15);border-radius:16px;padding:20px;">
+            <div style="font-size:12px;color:#666;margin-bottom:8px;">المكسب الصافي (بعد العمولة)</div>
+            <div style="font-size:26px;font-weight:900;" class="gold-grad">$3,648</div>
+          </div>
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:20px;">
+            <div style="font-size:12px;color:#666;margin-bottom:8px;">المبالغ قيد المعالجة</div>
+            <div style="font-size:26px;font-weight:900;color:#fff;">$192</div>
+          </div>
+        </div>
+        <button onclick="showToast('💳 جارٍ معالجة طلب السحب!')" class="btn-gold" style="margin-top:20px;padding:14px 32px;border-radius:14px;font-size:14px;">طلب سحب الأرباح →</button>
+      </div>
+
+      <!-- Tab: My Prompts -->
+      <div id="dPrompts" class="dash-tab">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+          <h3 style="font-size:15px;font-weight:800;">أوامري المنشورة</h3>
+          <a href="login.html"><button class="btn-gold" style="padding:10px 20px;border-radius:12px;font-size:13px;">+ إضافة أمر جديد</button></a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:14px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
+            <div style="flex:1;min-width:200px;">
+              <div style="font-weight:700;font-size:14px;">محلل الأسواق السيادي</div>
+              <div style="font-size:12px;color:#555;margin-top:4px;">ChatGPT • أعمال</div>
+            </div>
+            <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+              <div style="text-align:center;"><div style="font-size:11px;color:#444;">المبيعات</div><div style="font-weight:800;color:#FFD700;">234</div></div>
+              <div style="text-align:center;"><div style="font-size:11px;color:#444;">الأرباح</div><div style="font-weight:800;color:#FFD700;">$1,872</div></div>
+              <span style="background:#16a34a22;color:#22c55e;padding:4px 12px;border-radius:100px;font-size:11px;font-weight:800;">منشور</span>
+            </div>
+          </div>
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.05);border-radius:14px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
+            <div style="flex:1;min-width:200px;">
+              <div style="font-weight:700;font-size:14px;">مصمم الهوية الملكية</div>
+              <div style="font-size:12px;color:#555;margin-top:4px;">Midjourney • تصميم</div>
+            </div>
+            <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+              <div style="text-align:center;"><div style="font-size:11px;color:#444;">المبيعات</div><div style="font-weight:800;color:#FFD700;">187</div></div>
+              <div style="text-align:center;"><div style="font-size:11px;color:#444;">الأرباح</div><div style="font-weight:800;color:#FFD700;">$1,496</div></div>
+              <span style="background:#16a34a22;color:#22c55e;padding:4px 12px;border-radius:100px;font-size:11px;font-weight:800;">منشور</span>
+            </div>
+          </div>
+          <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,215,0,.1);border-radius:14px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
+            <div style="flex:1;min-width:200px;">
+              <div style="font-weight:700;font-size:14px;">مدير المشاريع الذكي</div>
+              <div style="font-size:12px;color:#555;margin-top:4px;">GPT-4 • أعمال</div>
+            </div>
+            <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+              <div style="text-align:center;"><div style="font-size:11px;color:#444;">المبيعات</div><div style="font-weight:800;color:#fff;">0</div></div>
+              <div style="text-align:center;"><div style="font-size:11px;color:#444;">الأرباح</div><div style="font-weight:800;color:#fff;">$0</div></div>
+              <span style="background:rgba(255,215,0,.1);color:#FFD700;padding:4px 12px;border-radius:100px;font-size:11px;font-weight:800;">قيد المراجعة</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: Settings -->
+      <div id="dSettings" class="dash-tab">
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div>
+            <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">الاسم الكامل</label>
+            <input class="finput" value="أحمد سالم أعمر حداد">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">البريد الإلكتروني</label>
+            <input class="finput" value="ahmed@atlasprompts.com">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">حساب PayPal للسحب</label>
+            <input class="finput" placeholder="email@paypal.com">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">الخطة الحالية</label>
+            <div style="background:rgba(255,215,0,.08);border:1px solid rgba(255,215,0,.25);border-radius:14px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;">
+              <div><div style="font-weight:800;font-size:15px;">👑 خطة الإمبراطور</div><div style="font-size:12px;color:#555;margin-top:4px;">تُجدد في 1 يونيو 2026</div></div>
+              <button class="btn-outline" style="padding:8px 16px;border-radius:10px;font-size:12px;">ترقية</button>
+            </div>
+          </div>
+          <button onclick="showToast('✅ تم حفظ الإعدادات بنجاح!')" class="btn-gold" style="padding:14px;border-radius:14px;font-size:14px;margin-top:8px;">حفظ التغييرات</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ── Sell Modal (Multi-step) ── -->
+<div id="sellModal" class="modal-overlay" onclick="if(event.target===this)closeModals()">
+  <div class="modal-box glass" style="max-width:660px;">
+    <div style="padding:36px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;">
+        <div>
+          <h2 style="font-size:22px;font-weight:900;" class="gold-grad">أطلق قوتك ✦</h2>
+          <p style="font-size:13px;color:#555;margin-top:4px;">نحن لا نرفض — نطوّر ونُنشر</p>
+        </div>
+        <button onclick="closeModals()" style="background:rgba(255,255,255,.06);border:none;color:#666;width:38px;height:38px;border-radius:10px;cursor:pointer;font-size:18px;">✕</button>
+      </div>
+
+      <!-- Step indicator -->
+      <div style="display:flex;align-items:center;gap:0;margin-bottom:32px;">
+        <div style="display:flex;align-items:center;gap:10px;flex:1;" id="si1">
+          <div class="step-circle active" id="sc1">1</div>
+          <div style="font-size:13px;font-weight:700;color:#FFD700;">معلومات الأمر</div>
+        </div>
+        <div style="flex:1;height:2px;background:rgba(255,255,255,.06);margin:0 8px;" id="sl1"></div>
+        <div style="display:flex;align-items:center;gap:10px;flex:1;" id="si2">
+          <div class="step-circle" id="sc2">2</div>
+          <div style="font-size:13px;font-weight:700;color:#555;">محتوى الأمر</div>
+        </div>
+        <div style="flex:1;height:2px;background:rgba(255,255,255,.06);margin:0 8px;" id="sl2"></div>
+        <div style="display:flex;align-items:center;gap:10px;flex:1;" id="si3">
+          <div class="step-circle" id="sc3">3</div>
+          <div style="font-size:13px;font-weight:700;color:#555;">التحسين الذكي</div>
+        </div>
+      </div>
+
+      <!-- Step 1 -->
+      <div id="step1" class="sell-step active">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+          <div>
+            <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">عنوان الأمر *</label>
+            <input id="promptTitle" class="finput" placeholder="مثال: محلل السوق الذكي">
+          </div>
+          <div>
+            <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">التصنيف *</label>
+            <select id="promptCat" class="finput">
+              <option value="">اختر تصنيفاً</option>
+              <option>أعمال وتجارة</option>
+              <option>تصميم وفنون</option>
+              <option>كتابة وإبداع</option>
+              <option>تسويق رقمي</option>
+              <option>بيانات وتحليل</option>
+              <option>قانون وعقود</option>
+              <option>فيديو وإنتاج</option>
+            </select>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+          <div>
+            <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">الأداة المستخدمة *</label>
+            <select id="promptTool" class="finput">
+              <option value="">اختر الأداة</option>
+              <option>ChatGPT / GPT-4o</option>
+              <option>Claude AI</option>
+              <option>Midjourney</option>
+              <option>DALL-E 3</option>
+              <option>Gemini</option>
+              <option>Sora</option>
+              <option>أخرى</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">السعر (بالدولار) *</label>
+            <input id="promptPrice" class="finput" type="number" placeholder="مثال: 35" min="5">
+          </div>
+        </div>
+        <div style="margin-bottom:24px;">
+          <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">الوصف التسويقي *</label>
+          <textarea id="promptDesc" class="finput" style="height:90px;resize:none;" placeholder="صف ما يحققه هذا الأمر وفوائده للمشتري..."></textarea>
+        </div>
+        <button onclick="goStep(2)" class="btn-gold" style="width:100%;padding:14px;border-radius:14px;font-size:15px;">التالي: محتوى الأمر →</button>
+      </div>
+
+      <!-- Step 2 -->
+      <div id="step2" class="sell-step">
+        <div style="background:rgba(255,215,0,.04);border:1px dashed rgba(255,215,0,.3);border-radius:18px;padding:24px;margin-bottom:16px;">
+          <label style="font-size:12px;color:#FFD700;font-weight:800;display:block;margin-bottom:12px;text-transform:uppercase;letter-spacing:.1em;">الشفرة السرية للأمر *</label>
+          <textarea id="promptContent" class="finput" style="height:140px;resize:none;background:transparent;border-color:rgba(255,215,0,.15);" placeholder="الصق أمرك الكامل هنا. لا يظهر للمشتري إلا بعد الدفع. سيُحسَّن تلقائياً بذكائنا."></textarea>
+          <div style="font-size:11px;color:#444;margin-top:10px;">🔒 محمي بتشفير AES-256 — آمن بنسبة 100%</div>
+        </div>
+        <div style="margin-bottom:24px;">
+          <label style="font-size:12px;color:#555;font-weight:700;display:block;margin-bottom:8px;">مثال على المخرجات (اختياري)</label>
+          <textarea id="promptExample" class="finput" style="height:80px;resize:none;" placeholder="أضف مثالاً على نتائج الأمر لتزيد مصداقيته..."></textarea>
+        </div>
+        <div style="display:flex;gap:12px;">
+          <button onclick="goStep(1)" class="btn-outline" style="flex:1;padding:14px;border-radius:14px;font-size:14px;">← السابق</button>
+          <button onclick="goStep(3)" class="btn-gold" style="flex:2;padding:14px;border-radius:14px;font-size:15px;">التالي: التحسين الذكي 🤖</button>
+        </div>
+      </div>
+
+      <!-- Step 3: AI Analysis -->
+      <div id="step3" class="sell-step">
+        <div id="aiAnalyzing" style="text-align:center;padding:32px 0;">
+          <div style="font-size:48px;margin-bottom:16px;" class="float-it">🤖</div>
+          <h3 style="font-size:18px;font-weight:800;margin-bottom:8px;">جارٍ تحليل أمرك <span class="ai-loading"></span></h3>
+          <p style="color:#555;font-size:14px;">ذكاؤنا يفحص جودة الأمر، وضوح التعليمات، وإمكانية تحسينه</p>
+          <div style="margin-top:24px;height:6px;background:rgba(255,255,255,.04);border-radius:100px;overflow:hidden;">
+            <div id="aiProgress" style="width:0%;height:100%;background:linear-gradient(90deg,#FFD700,#FFA500);border-radius:100px;transition:width .4s;"></div>
+          </div>
+        </div>
+
+        <div id="aiResult" style="display:none;">
+          <div style="background:rgba(34,197,94,.05);border:1px solid rgba(34,197,94,.2);border-radius:16px;padding:16px 20px;margin-bottom:20px;display:flex;align-items:center;gap:12px;">
+            <span style="font-size:24px;">✅</span>
+            <div><div style="font-weight:800;font-size:14px;color:#22c55e;">ممتاز! وجدنا 3 تحسينات</div><div style="font-size:12px;color:#555;margin-top:2px;">أمرك يبدو واعداً — إليك النسخة المطوّرة</div></div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px;">
+            <div>
+              <div style="font-size:11px;color:#555;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;">الأمر الأصلي</div>
+              <div class="compare-box" id="originalBox">اكتب لي محتوى تسويقي...</div>
+            </div>
+            <div>
+              <div style="font-size:11px;color:#FFD700;font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;">بعد تحسين الذكاء ✨</div>
+              <div class="compare-box improved" id="improvedBox">أنت خبير تسويق رقمي متخصص في السوق العربي...</div>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:12px;">
+            <button onclick="acceptImprovement()" class="btn-gold" style="flex:2;padding:14px;border-radius:14px;font-size:14px;">✅ قبول النسخة المحسّنة ونشر الأمر</button>
+            <button onclick="skipImprovement()" class="btn-outline" style="flex:1;padding:14px;border-radius:14px;font-size:13px;">نشر أمري الأصلي</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ── Purchase Modal ── -->
+<div id="purchaseModal" class="modal-overlay" onclick="if(event.target===this)closeModals()">
+  <div class="modal-box glass" style="max-width:440px;border-radius:28px;">
+    <div style="padding:36px;text-align:center;">
+      <div style="width:72px;height:72px;background:rgba(255,215,0,.1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:32px;">🛡️</div>
+      <h2 style="font-size:20px;font-weight:900;margin-bottom:6px;">تأكيد الاقتناء</h2>
+      <div id="purchaseName" style="color:#FFD700;font-weight:700;font-size:16px;margin-bottom:28px;"></div>
+
+      <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:18px;padding:20px;margin-bottom:20px;text-align:right;">
+        <div style="display:flex;justify-content:space-between;font-size:13px;color:#555;margin-bottom:8px;"><span>سعر الأمر</span><span id="pBasePrice"></span></div>
+        <div style="display:flex;justify-content:space-between;font-size:13px;color:#555;margin-bottom:16px;"><span>رسوم المعالجة</span><span>$0.99</span></div>
+        <div style="height:1px;background:rgba(255,255,255,.06);margin-bottom:16px;"></div>
+        <div style="display:flex;justify-content:space-between;font-size:17px;font-weight:900;"><span>الإجمالي</span><span class="gold-grad" id="pTotal"></span></div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:20px;">
+        <button onclick="confirmPurchase('paypal')" style="width:100%;padding:14px 24px;background:#fff;color:#003087;border:none;border-radius:14px;font-weight:900;font-size:14px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'Cairo',sans-serif;transition:all .3s;" onmouseover="this.style.background='#FFD700'" onmouseout="this.style.background='#fff'">
+          <span>PayPal / بطاقة ائتمان</span><span>💳</span>
+        </button>
+        <button onclick="confirmPurchase('crypto')" style="width:100%;padding:14px 24px;background:rgba(255,255,255,.04);color:#fff;border:1px solid rgba(255,255,255,.1);border-radius:14px;font-weight:900;font-size:14px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'Cairo',sans-serif;transition:all .3s;" onmouseover="this.style.borderColor='#FFD700'" onmouseout="this.style.borderColor='rgba(255,255,255,.1)'">
+          <span>USDT / تحويل بنكي</span><span>₿</span>
+        </button>
+      </div>
+
+      <button onclick="closeModals()" style="font-size:12px;color:#444;font-weight:700;background:none;border:none;cursor:pointer;font-family:'Cairo',sans-serif;">تراجع عن العملية</button>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════ -->
+<script>
+// ── Data ──
+const PROMPTS = [
+  { id:1, title:"محلل الأسواق السيادي", desc:"أمر شامل لتحليل الأسواق العربية وتحديد فرص الاستثمار بدقة فائقة. يولّد تقارير احترافية في ثوانٍ.", cat:"business", tool:"ChatGPT", price:45, rating:4.9, sales:234, img:"https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=600&h=400", seller:"محمد العمري", badge:"hot", featured:true },
+  { id:2, title:"مصمم الهوية البصرية", desc:"أوامر Midjourney سرية لصناعة هويات بصرية فخمة تعكس الذهب والأصالة العربية.", cat:"design", tool:"Midjourney", price:38, rating:4.8, sales:187, img:"https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=600&h=400", seller:"ليلى المنصور", badge:"new", featured:false },
+  { id:3, title:"كاتب المحتوى الإبداعي", desc:"حوّل أفكارك الخام إلى محتوى آسر يحرك المشاعر ويقنع القراء بالعربية الفصحى والعامية.", cat:"writing", tool:"Claude AI", price:29, rating:4.9, sales:312, img:"https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&q=80&w=600&h=400", seller:"عمر الزيدي", badge:null, featured:false },
+  { id:4, title:"خبير التسويق الرقمي", desc:"استراتيجيات تسويق متكاملة مخصصة للسوق العربي. إعلانات وكمبينات مُحسَّنة لأقصى معدلات التحويل.", cat:"marketing", tool:"ChatGPT", price:55, rating:4.7, sales:98, img:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600&h=400", seller:"سارة الأحمد", badge:"hot", featured:true },
+  { id:5, title:"مدير المشاريع الذكي", desc:"نظام متكامل لإدارة المشاريع: تخطيط، جدولة، متابعة مخاطر، وتقارير للعملاء باللغة العربية.", cat:"business", tool:"GPT-4o", price:42, rating:4.8, sales:145, img:"https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=600&h=400", seller:"خالد المطيري", badge:null, featured:false },
+  { id:6, title:"محلل البيانات العربي", desc:"أوامر Python وSQL عربية لتحليل البيانات الضخمة، وإنشاء لوحات بيانات تفاعلية لأصحاب القرار.", cat:"data", tool:"ChatGPT", price:65, rating:5.0, sales:76, img:"https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600&h=400", seller:"نور البلوشي", badge:"new", featured:false },
+  { id:7, title:"صانع الفيديو القصير", desc:"أوامر Sora لصنع فيديوهات ريلز وتيك توك احترافية بمحتوى عربي ترند يضاعف المشاهدات.", cat:"video", tool:"Sora", price:78, rating:4.9, sales:89, img:"https://images.unsplash.com/photo-1536240478700-b869ad10e128?auto=format&fit=crop&q=80&w=600&h=400", seller:"ياسر الغامدي", badge:"hot", featured:true },
+  { id:8, title:"خبير السيو والمحتوى", desc:"أوامر متكاملة لتصدر نتائج البحث العربية. كلمات مفتاحية، محتوى SEO، وبناء روابط خلفية.", cat:"marketing", tool:"ChatGPT", price:35, rating:4.6, sales:203, img:"https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&q=80&w=600&h=400", seller:"فاطمة الحسن", badge:null, featured:false },
+  { id:9, title:"كاتب العقود القانونية", desc:"عقود تجارية وقانونية عربية بدقة محامٍ. شروط خدمة، عقود شراكة، اتفاقيات سرية شاملة.", cat:"legal", tool:"Claude AI", price:95, rating:4.8, sales:54, img:"https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=600&h=400", seller:"أحمد السيد", badge:"new", featured:false },
+  { id:10, title:"مصمم الإعلانات الاجتماعية", desc:"أوامر DALL-E لتصميم إعلانات فيسبوك وإنستغرام عربية تستهدف الجمهور العربي بدقة ثقافية.", cat:"design", tool:"DALL-E 3", price:48, rating:4.7, sales:167, img:"https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=600&h=400", seller:"ريم العتيبي", badge:null, featured:false },
+];
+
+let currentCat = 'all';
+let currentStep = 1;
+let purchasePrice = 0;
+
+// ── Render Cards ──
+function renderCards(data) {
+  const grid = document.getElementById('cardsGrid');
+  grid.innerHTML = '';
+  if(!data.length) {
+    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:60px;color:#444;font-size:15px;">لا توجد نتائج مطابقة للبحث</div>';
+    return;
+  }
+  data.forEach(p => {
+    const badgeHTML = p.badge === 'hot'
+      ? '<span class="badge-hot">🔥 الأكثر مبيعاً</span>'
+      : p.badge === 'new' ? '<span class="badge-new">جديد</span>' : '';
+
+    const stars = '⭐'.repeat(Math.floor(p.rating));
+
+    grid.innerHTML += `
+    <div class="prompt-card" onclick="openPurchase('${p.title}',${p.price})">
+      <div style="position:relative;overflow:hidden;height:180px;">
+        <img src="${p.img}" alt="${p.title}" class="card-img" loading="lazy" onerror="this.src='https://placehold.co/600x400/111/FFD700?text=أطلس+برومبتس'">
+        <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.7),transparent);"></div>
+        <div style="position:absolute;top:12px;right:12px;background:rgba(0,0,0,.7);backdrop-filter:blur(8px);border:1px solid rgba(255,215,0,.25);border-radius:100px;padding:4px 14px;font-size:10px;font-weight:800;color:#FFD700;letter-spacing:.1em;">${p.tool}</div>
+        ${badgeHTML ? `<div style="position:absolute;top:12px;left:12px;">${badgeHTML}</div>` : ''}
+      </div>
+      <div style="padding:20px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+          <span style="font-size:12px;color:#FFD700;">${stars}</span>
+          <span style="font-size:11px;color:#444;">${p.sales} مبيعة</span>
+        </div>
+        <h3 style="font-weight:800;font-size:16px;margin-bottom:8px;line-height:1.3;">${p.title}</h3>
+        <p style="font-size:12px;color:#444;line-height:1.6;margin-bottom:16px;">${p.desc.substring(0,90)}...</p>
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <div>
+            <span style="font-size:22px;font-weight:900;color:#FFD700;">$${p.price}</span>
+          </div>
+          <button onclick="event.stopPropagation();openPurchase('${p.title}',${p.price})" class="btn-gold" style="padding:9px 18px;border-radius:10px;font-size:12px;">اقتنِ الآن</button>
+        </div>
+        <div style="margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.05);font-size:11px;color:#3a3a3a;display:flex;align-items:center;gap:6px;">
+          <div style="width:20px;height:20px;border-radius:50%;background:rgba(255,215,0,.15);display:flex;align-items:center;justify-content:center;font-size:10px;color:#FFD700;">${p.seller[0]}</div>
+          ${p.seller}
+        </div>
+      </div>
+    </div>`;
+  });
+}
+
+function filterCat(btn, cat) {
+  currentCat = cat;
+  document.querySelectorAll('.cat-pill').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyFilters();
+}
+
+function filterCards() { applyFilters(); }
+
+function applyFilters() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  let data = PROMPTS;
+  if(currentCat !== 'all') data = data.filter(p => p.cat === currentCat);
+  if(q) data = data.filter(p => p.title.includes(q) || p.desc.includes(q) || p.tool.toLowerCase().includes(q));
+  renderCards(data);
+}
+
+// ── Modals ──
+function openDashboard() {
+  document.getElementById('dashboardModal').classList.add('active');
+  buildEarningsChart();
+}
+function openSellModal() {
+  currentStep = 1;
+  goStep(1, true);
+  document.getElementById('sellModal').classList.add('active');
+}
+function openPurchase(name, price) {
+  purchasePrice = price;
+  document.getElementById('purchaseName').textContent = name;
+  document.getElementById('pBasePrice').textContent = '$' + price;
+  document.getElementById('pTotal').textContent = '$' + (price + 0.99).toFixed(2);
+  document.getElementById('purchaseModal').classList.add('active');
+}
+function closeModals() {
+  document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('active'));
+}
+
+// ── Dashboard ──
+function switchDash(btn, tabId) {
+  document.querySelectorAll('.dash-nav-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.dash-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById(tabId).classList.add('active');
+}
+
+function buildEarningsChart() {
+  const months = ['يناير','فبراير','مارس','أبريل','مايو','يونيو'];
+  const vals = [420, 680, 540, 920, 1100, 1380];
+  const max = Math.max(...vals);
+  const chart = document.getElementById('earningsChart');
+  const labels = document.getElementById('earningsLabels');
+  if(!chart) return;
+  chart.innerHTML = '';
+  labels.innerHTML = '';
+  vals.forEach((v,i) => {
+    const pct = Math.round((v/max)*100);
+    chart.innerHTML += `<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;">
+      <div style="font-size:10px;color:#FFD700;font-weight:800;">${v >= 1000 ? (v/1000).toFixed(1)+'k' : v}$</div>
+      <div class="chart-bar" style="width:100%;height:${pct}%;"></div>
+    </div>`;
+    labels.innerHTML += `<div style="flex:1;text-align:center;">${months[i]}</div>`;
+  });
+}
+
+// ── Sell Steps ──
+function goStep(n, init) {
+  [1,2,3].forEach(i => {
+    const s = document.getElementById('step'+i);
+    const c = document.getElementById('sc'+i);
+    if(s) s.classList.toggle('active', i===n);
+    if(c) {
+      c.classList.toggle('active', i===n);
+      c.classList.toggle('done', i<n);
+      if(i===n) { c.style.background='#FFD700';c.style.borderColor='#FFD700';c.style.color='#000'; }
+      else if(i<n) { c.style.background='rgba(255,215,0,.15)';c.style.borderColor='#FFD700';c.style.color='#FFD700'; }
+      else { c.style.background='transparent';c.style.borderColor='rgba(255,255,255,.1)';c.style.color='#555'; }
+    }
+  });
+  currentStep = n;
+  if(n === 3 && !init) runAIAnalysis();
+}
+
+function runAIAnalysis() {
+  const orig = document.getElementById('promptContent').value || 'اكتب لي محتوى تسويقي جيد للمنتج...';
+  document.getElementById('aiAnalyzing').style.display = 'block';
+  document.getElementById('aiResult').style.display = 'none';
+  document.getElementById('originalBox').textContent = orig.substring(0,120);
+
+  let progress = 0;
+  const bar = document.getElementById('aiProgress');
+  const timer = setInterval(() => {
+    progress += Math.random() * 18;
+    if(progress >= 100) {
+      progress = 100;
+      clearInterval(timer);
+      setTimeout(showAIResult, 400);
+    }
+    bar.style.width = Math.min(progress,100) + '%';
+  }, 180);
+}
+
+function showAIResult() {
+  const orig = document.getElementById('promptContent').value || '';
+  document.getElementById('aiAnalyzing').style.display = 'none';
+  document.getElementById('aiResult').style.display = 'block';
+  document.getElementById('improvedBox').textContent =
+    `أنت خبير متخصص بـ[المجال]. مهمتك: ${orig.substring(0,60).trim() || 'تحقيق الهدف المطلوب'}. قدّم إجابتك باللغة العربية الفصحى مع هيكل واضح يشمل: 1) التحليل 2) التوصيات 3) خطوات التنفيذ. استخدم أمثلة من السوق العربي حصراً.`;
+}
+
+function acceptImprovement() {
+  closeModals();
+  showToast('🚀 تم قبول التحسين ونُشر أمرك في المتجر!');
+}
+function skipImprovement() {
+  closeModals();
+  showToast('✅ تم نشر أمرك الأصلي بنجاح!');
+}
+
+// ── Purchase ──
+function confirmPurchase(method) {
+  closeModals();
+  const label = method === 'paypal' ? 'PayPal' : 'USDT';
+  showToast(`💳 تمت عملية الدفع بـ${label} بنجاح!`);
+}
+
+// ── Donation ──
+function selectDonate(btn, amt) {
+  document.querySelectorAll('.donate-amt').forEach(b => b.classList.remove('sel'));
+  btn.classList.add('sel');
+}
+function donate() {
+  const sel = document.querySelector('.donate-amt.sel');
+  const custom = document.getElementById('customDonate').value;
+  const amt = custom || (sel ? sel.textContent : '10');
+  showToast(`💛 شكراً لدعمك! تبرعك بـ${amt}$ يُحدث فرقاً حقيقياً!`);
+}
+
+// ── Mobile Menu ──
+function openMobileMenu() { document.getElementById('mobileMenu').classList.add('open'); }
+function closeMobileMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
+
+// ── Toast ──
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3200);
+}
+
+// ── Stats Counter ──
+function animateCounter(id, target, suffix='', duration=1800) {
+  const el = document.getElementById(id);
+  if(!el) return;
+  const start = performance.now();
+  function update(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    const ease = 1 - Math.pow(1 - progress, 3);
+    el.textContent = Math.round(ease * target).toLocaleString('ar-EG') + suffix;
+    if(progress < 1) requestAnimationFrame(update);
+  }
+  requestAnimationFrame(update);
+}
+
+// ── Intersection Observer for stats ──
+const statsSection = document.querySelector('#stat1')?.closest('section');
+let statsAnimated = false;
+const statObs = new IntersectionObserver(entries => {
+  if(entries[0].isIntersecting && !statsAnimated) {
+    statsAnimated = true;
+    animateCounter('stat1', 1847, '+');
+    animateCounter('stat2', 312, '+');
+    animateCounter('stat3', 9240, '+');
+    animateCounter('stat4', 22, '+');
+  }
+}, { threshold: 0.3 });
+if(statsSection) statObs.observe(statsSection);
+
+// ── Init ──
+renderCards(PROMPTS);
+
+// Close modals on Escape
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModals(); });
+</script>
+</body>
+</html>
