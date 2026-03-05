@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>404 — الصفحة غير موجودة | أطلس برومبتس</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='28' font-weight='bold' fill='%23FFD700'%3E%D8%B9%3C/text%3E%3C/svg%3E">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Cairo',sans-serif;background:#030303;color:#F0EFE8;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;overflow:hidden;}
+    .geo-bg{position:fixed;inset:0;pointer-events:none;background-image:repeating-linear-gradient(0deg,transparent,transparent 60px,rgba(255,215,0,.025) 60px,rgba(255,215,0,.025) 61px),repeating-linear-gradient(90deg,transparent,transparent 60px,rgba(255,215,0,.025) 60px,rgba(255,215,0,.025) 61px);}
+    .glow{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;height:400px;background:radial-gradient(ellipse,rgba(255,215,0,.07) 0%,transparent 70%);pointer-events:none;}
+    .num{font-size:clamp(120px,25vw,220px);font-weight:900;line-height:1;background:linear-gradient(135deg,#FFD700,#FFA500,#FFD700);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;position:relative;z-index:1;}
+    .num::after{content:'٤٠٤';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(255,215,0,.06),transparent);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:blur(30px);z-index:-1;}
+    h1{font-size:clamp(20px,4vw,32px);font-weight:900;margin:16px 0 12px;}
+    p{font-size:15px;color:#555;max-width:440px;line-height:1.8;margin-bottom:40px;}
+    .btns{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;}
+    .btn-g{background:linear-gradient(135deg,#FFD700,#FFA500);color:#000;font-weight:900;font-family:'Cairo',sans-serif;padding:14px 32px;border-radius:14px;border:none;cursor:pointer;font-size:15px;text-decoration:none;transition:all .3s;}
+    .btn-g:hover{transform:translateY(-2px);box-shadow:0 12px 32px rgba(255,215,0,.3);}
+    .btn-o{border:1.5px solid rgba(255,215,0,.3);color:#FFD700;background:transparent;font-family:'Cairo',sans-serif;padding:14px 28px;border-radius:14px;cursor:pointer;font-size:15px;text-decoration:none;font-weight:700;transition:all .3s;}
+    .btn-o:hover{background:rgba(255,215,0,.08);border-color:#FFD700;}
+    .arabic-404{position:fixed;bottom:30px;font-size:11px;color:#222;font-weight:700;letter-spacing:.2em;text-transform:uppercase;}
+    @keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-12px);}}
+    .num{animation:float 6s ease-in-out infinite;}
+  </style>
+</head>
+<body>
+  <div class="geo-bg"></div>
+  <div class="glow"></div>
+
+  <div style="position:relative;z-index:1;">
+    <div style="margin-bottom:12px;">
+      <svg width="52" height="52" viewBox="0 0 64 64" style="margin:0 auto;">
+        <rect width="64" height="64" rx="14" fill="#111"/>
+        <text x="32" y="44" text-anchor="middle" font-family="Georgia,serif" font-size="26" fill="#FFD700">ع</text>
+      </svg>
+    </div>
+
+    <div class="num">404</div>
+
+    <h1>عذراً، ضُغط الأمر في مكان خاطئ!</h1>
+    <p>
+      الصفحة التي تبحث عنها غير موجودة أو تم نقلها.<br>
+      ربما الأمر الذكي هنا هو العودة للرئيسية والبدء من جديد.
+    </p>
+
+    <div class="btns">
+      <a href="index.html" class="btn-g">🏠 العودة للرئيسية</a>
+      <a href="index.html#market" class="btn-o">🔍 تصفح الأوامر</a>
+    </div>
+  </div>
+
+  <div class="arabic-404">أطلس برومبتس • خطأ ٤٠٤</div>
+</body>
+</html>
